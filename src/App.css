@@ -1,38 +1,34 @@
-.App {
+.app {
+  text-align: center;
+  background-color: #eceeee;
+  height: 100vh;
+}
+
+.tl-container {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 12.5px 0 12.5px; 
+}
+
+.tasklist {
+  /* border-style: solid; */
+  margin: 25px 12.5px 0px 12.5px;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.name-container {
   color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.singletask {
+  display: flex;
+  margin-top: 5px;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tasktext {
+  margin: 0 5px 0 5px;
 }
